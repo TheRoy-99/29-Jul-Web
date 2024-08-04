@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="styleLogin.css">
+</head>
+
+<body>
+    <div class="container_principal">
+        <div class="login-form">
+            <h3><span>Travel</span>App</h3>
+            <h2>Inicio de Sesión</h2>
+            <form action="login.html" method="post">
+                <div class="input-group">
+                    <input type="text" id="username" name="username" placeholder="Ingresa Usuario" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" name="password" placeholder="Ingresa Contraseña" required>
+                </div>
+                <div class="button-group">
+                    <button type="submit" class="btn-login">Ingresar</button>
+                    <button type="button" class="btn-regresar">Regresar</button>
+                </div>
+                <script>
+                    document.querySelector('.btn-regresar').addEventListener('click', function () {
+                        window.location.href = 'index.html';
+                    });
+                </script>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
