@@ -72,13 +72,3 @@
     align-items: center; /* centrar horizontal */
 }
 
-.btn-register,
-.btn-regresar {
-    background-color: #3b2a54;
-    width: 120px;
-    height: 40px;
-    border-radius: 30px;
-    border: none;
-    color: white;
-    margin-bottom: 10px;
-}
