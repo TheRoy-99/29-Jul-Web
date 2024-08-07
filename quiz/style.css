@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-uno {
+    padding-top: 0;
+    margin-top: 10px;
+    display: flex;
+    width: 80%;
+    height: 40px;
+    justify-content:flex-end;
+    text-align: center;
+}
+
+.uno{
+    text-justify: auto;
+    width: 100px;
+    background-color: aqua;
+    color: white;
+}
+.dos{
+    width: 150px;
+    background-color: blue;
+    color: white;
+
+}
+.tres{
+    width: 120px;
+    background-color:violet;
+    color: white;
+}
+.cuatro{
+    width: 125px;
+    background-color: rgb(74, 73, 73);
+    color: white;
+}
+.cinco{
+    width: 250px;
+    background-color:yellow;
+    color: white;
+}
+.seis{
+    width: 100px;
+    background-color: orangered;
+    color: white;
+}
+
+.container-dos {
+    border: 10px ridge red;
+    display: flex;
+    justify-content: space-between;
+    width: 99vw;
+    height: 90vh;
+    margin-top: 20px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.one{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(45, 214, 149); 
+    height: 25%;
+}
+.two{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: aqua; 
+    height: 25%;
+}
+.three{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: purple; 
+    height: 25%;
+}
+.four{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: gray; 
+    height: 25%;
+}
+.five{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: yellow;
+    height: 50%; 
+}
+.six{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: orangered; 
+    height: 60%;
+}
+
